@@ -1,9 +1,7 @@
 import React from "react";
 import List from "../components/list";
 
-const Layout = React.memo(() => {
-  return <List />;
-});
+const Layout = React.memo(() => <List />);
 
 Layout.displayName = "Layout";
 export default Layout;

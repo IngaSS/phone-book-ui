@@ -1,0 +1,38 @@
+.phones-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-row-gap: 0.0625rem;
+  padding: 1rem;
+}
+
+.phones-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px dashed lightgray;
+}
+
+.phones-list-item:first-child {
+  background: gray;
+  color: white;
+  border: none;
+}
+
+.phones-list-item-id {
+  flex: 1 0.5;
+}
+
+.phones-list-item-name {
+  flex: 1 0.5;
+}
+
+.phones-list-item-number {
+  flex: 1 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phones-list-item-delete {
+  margin-left: auto;
+}
